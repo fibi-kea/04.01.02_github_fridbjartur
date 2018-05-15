@@ -1,17 +1,20 @@
 /* Basis styles */
 
 html {
-    color: #222;
     font-size: 1em;
     line-height: 1.4;
-    font-family: 'EB Garamond', serif;
-    font-variant: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
     font-style: normal;
+    font-variant: normal;
+    text-decoration: none;
 }
 
 body {
     max-width: 1200px;
     margin: 0 auto;
+    padding-left: 5vw;
+    padding-right: 5vw;
     background-color: azure;
 }
 
@@ -50,6 +53,14 @@ nav ul li {
 }
 
 nav a {
-    font-size: 1.5vw;
     text-decoration: none;
+    color: black;
+    font-size: 15px;
+
+}
+
+/* Navigation slut */
+
+h1 {
+    font-weight: 500;
 }
